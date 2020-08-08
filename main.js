@@ -7,9 +7,9 @@ let n2 = text2.length;
 function compareStr(n1, n2) {
     let result = n1 == n2;
     if (n1 > n2) {
-        console.log(n1);
+        console.log(text1 + " - " + n1);
     } else {
-        console.log(n2);
+        console.log(text2 + " - " + n2);
     }
     return result;
 }
